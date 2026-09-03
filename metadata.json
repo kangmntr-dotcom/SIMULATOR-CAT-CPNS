@@ -1,0 +1,6 @@
+{
+  "name": "SIMULATOR SKD CPNS",
+  "description": "Aplikasi Simulasi Ujian CAT BKN SKD CPNS (TWK, TIU, TKP) dengan sistem login Peserta dan Admin berbasis Firebase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

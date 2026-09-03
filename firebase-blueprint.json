@@ -1,0 +1,49 @@
+{
+  "entities": {
+    "User": {
+      "collection": "users",
+      "fields": {
+        "username": { "type": "string" },
+        "role": { "type": "string" },
+        "name": { "type": "string" },
+        "nik": { "type": "string" },
+        "examNumber": { "type": "string" },
+        "email": { "type": "string" },
+        "password": { "type": "string" },
+        "avatar": { "type": "string" },
+        "createdAt": { "type": "string" }
+      }
+    },
+    "Question": {
+      "collection": "questions",
+      "fields": {
+        "category": { "type": "string" },
+        "number": { "type": "number" },
+        "questionText": { "type": "string" },
+        "options": { "type": "array" },
+        "correctKey": { "type": "string" },
+        "tkpScores": { "type": "map" },
+        "explanation": { "type": "string" }
+      }
+    },
+    "ExamResult": {
+      "collection": "exam_results",
+      "fields": {
+        "userId": { "type": "string" },
+        "userName": { "type": "string" },
+        "userNik": { "type": "string" },
+        "examNumber": { "type": "string" },
+        "startedAt": { "type": "string" },
+        "finishedAt": { "type": "string" },
+        "answers": { "type": "map" },
+        "doubtfuls": { "type": "map" },
+        "scoreTwk": { "type": "number" },
+        "scoreTiu": { "type": "number" },
+        "scoreTkp": { "type": "number" },
+        "scoreTotal": { "type": "number" },
+        "passed": { "type": "boolean" },
+        "timeSpentSeconds": { "type": "number" }
+      }
+    }
+  }
+}
